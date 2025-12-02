@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>WELCOME TO DAY2 CLASS</h1>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Websites</title>
+
+    <h1>Quick Links</h1>
+
+    <p>
+        <a href="https://www.google.com" target="_blank">Visit Google</a>
+    </p>
+
+    <p>
+        <a href="https://www.youtube.com" target="_blank">Visit YouTube</a>
+    </p>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta-name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Display</title>
+</head>
+<body>
+
+<h1>Image Display Example</h1>
+
+<!-- Real image that will display directly in the webpage -->
+<img src="https://www.w3schools.com/w3images/lights.jpg" 
+     alt="Sample Image" 
+     width="400">
+
+
+
+
+<h1>PHOTO</h1>
+
+<img src="riha photo1.jpg" alt="Riha Photo" style="width:300px; height:auto;">
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Links</title>
+<h1>Click the Names to Watch Videos</h1>
+
+<p>
+    <!-- Sundar Pichai Video -->
+    <a href="https://www.youtube.com/watch?v=4Yx1o2KZKTo" target="_blank">
+        Sundar
+    </a>
+</p>
+
+<p>
+    <!-- Sudha Murthy Video -->
+    <a href="https://www.youtube.com/watch?v=brZRDlf9d14" target="_blank">
+        Sudha
+    </a>
+</p>
+
+
+<ul>
+    <li><a href="https://www.youtube.com/embed/rMu8VBQNHWQ" target="videoframe">Mr. Bean</a></li>
+    <li><a href="https://www.youtube.com/embed/t0Q2otsqC4I" target="videoframe">Tom & Jerry</a></li>
+    <li><a href="https://www.youtube.com/embed/bppulSQPyzw" target="videoframe">Shaun the Sheep</a></li>
+</ul>
+<iframe
+    name="videoframe"
+    width="928"
+    height="522"
+    src="https://www.youtube.com/embed/rMu8VBQNHWQ"
+    frameborder="0"
+    allowfullscreen>
+</iframe>
+
+
+
+
+
+
+
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Form</title>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+ <form>
+     <label for="fullname">Full Name:</label>
+    <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+    <br><br>
+
+    <!-- Email -->
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email" placeholder="Enter your email" required>
+    <br><br>
+
+    <!-- Password -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+    <br><br>
+
+    <!-- Age -->
+    <label for="age">Age:</label>
+    <input type="text" id="age" name="age" placeholder="Enter your age" required>
+    <br><br>
+
+    <!-- Gender -->
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="male" required> 
+    <label for="male">Male</label><br>
+
+    <input type="radio" id="female" name="gender" value="female"> 
+    <label for="female">Female</label><br>
+
+    <input type="radio" id="other" name="gender" value="other"> 
+    <label for="other">Other</label>
+    <br><br>
+
+    <!-- Subjects (Checkbox) -->
+    <label>Choose Your Subjects:</label><br>
+
+    <input type="checkbox" id="maths" name="subject" value="maths">
+    <label for="maths">Maths</label><br>
+
+    <input type="checkbox" id="science" name="subject" value="science">
+    <label for="science">Science</label><br>
+
+    <input type="checkbox" id="english" name="subject" value="english">
+    <label for="english">English</label><br>
+
+    <input type="checkbox" id="computer" name="subject" value="computer">
+    <label for="computer">Computer Science</label><br><br>
+
+    <!-- Department (Dropdown) -->
+    <label for="department">Department:</label>
+    <select id="department" name="department" required>
+        <option value="">--Select Department--</option>
+        <option value="cse">Computer Science</option>
+        <option value="it">Information Technology</option>
+        <option value="ece">Electronics</option>
+        <option value="eee">Electrical</option>
+    </select>
+    <br><br>
+
+    <!-- Date -->
+    <label for="date">Select Date:</label>
+    <input type="date" id="date" name="date" required>
+    <br><br>
+
+    <!-- Time -->
+    <label for="time">Select Time:</label>
+    <input type="time" id="time" name="time" required>
+    <br><br>
+
+    <!-- Date & Time -->
+    <label for="datetime">Select Date & Time:</label>
+    <input type="datetime-local" id="datetime" name="datetime" required>
+    <br><br>
+
+    <!-- Upload Image / Document -->
+    <label for="file">Upload Image / Document:</label>
+    <input type="file" id="file" name="file" accept="image/*,.pdf,.doc,.docx" required>
+    <br><br>
+
+    <!-- Address -->
+    <label for="address">Address:</label><br>
+    <textarea id="address" name="address" rows="4" cols="40" placeholder="Enter your full address" required></textarea>
+    <br><br>
+
+    <!-- Buttons -->
+    <input type="submit" value="Submit Form">
+    <input type="reset" value="Reset Form">
+
+</form>
+</body>
+</html>>
+
+<h2>Scrolling Cat Image</h2>
+
+<marquee behavior="scroll" direction="left" scrollamount="8">
+    <img src="https://i.postimg.cc/BQH6T3V3/cute-cat.png" 
+         alt="Cute Cat" 
+         width="200">
+</marquee>
+
+<table border="1" cellspacing="8" cellspacing="0">
+    <tr>
+        <th>item</th>
+        <th>cost</th>
+        <th>quantity</th>
+    </tr>
+    <tr>
+        <td>tomato</td>
+        <td>20</td>
+        <td>1kg</td>
+    </tr>
+    <tr>
+        <td>onion</td>
+        <td>30</td>
+        <td>2kg</td>
+    </tr>
+</table>
+
+
+</body>
+</html>
