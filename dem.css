@@ -1,0 +1,54 @@
+
+.one{
+    color:blue;
+    background-color:aqua;
+
+}
+.second{
+    color:honeydew;
+    background-color:rgba(red, green, blue, alpha)
+}
+.h1,h2{
+    color:indigo;
+    background-color:lightgrey;
+}
+.h2{
+    color:yellowgreen
+    background-color  violet;
+}
+.h3{
+    color:royalblue;
+    background-color: crimson;
+}
+p.one {
+  border-style: solid;
+  border-width: 5px;
+    border-color: green;}
+div{
+    border-style: dashed;
+    border-width: 3px;
+    border-color: blue;
+}
+div {
+  width: 300px;
+  padding: 25px;
+  box-sizing: border-box;
+}
+a:link {
+  color: green;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+}
