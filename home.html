@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Food Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f9f9f9;
+        }
+
+        .container {
+            width: 350px;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        input, button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+
+        button {
+            background: #ff6600;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #cc5500;
+        }
+
+        #foodContent {
+            display: none;
+        }
+
+        .food-img {
+            width: 250px;
+            height: 170px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- LOGIN BOX -->
+    <div class="container" id="loginBox">
+        <h2>Login</h2>
+
+        <input type="text" id="name" placeholder="Enter your name" required>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <input type="password" id="password" placeholder="Enter your password" required>
+
+        <button onclick="showFood()">Login</button>
+    </div>
+
+    <!-- FOOD CONTENT -->
+    <div class="container" id="foodContent">
+        <h2>Welcome to Food World 😋</h2>
+        <p>Here are some delicious items waiting for you!</p>
+
+        <img class="food-img" src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Supreme_pizza.jpg" alt="Pizza">
+        <p><b>🍕 Supreme Pizza</b></p>
+
+        <img class="food-img" src="https://upload.wikimedia.org/wikipedia/commons/0/0b/RedDot_Burger.jpg" alt="Burger">
+        <p><b>🍔 Juicy Chicken Burger</b></p>
+
+        <img class="food-img" src="https://upload.wikimedia.org/wikipedia/commons/0/02/Ice_Cream_dessert_02.jpg" alt="Ice Cream">
+        <p><b>🍨 Ice Cream Sundae</b></p>
+    </div>
+
+    <script>
+        function showFood() {
+            document.getElementById("loginBox").style.display = "none";
+            document.getElementById("foodContent").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Peach Flex Gallery</title>
+
+<style>
+    h1{
+      color: #be3300; 
+      margin-left:700px;
+      size:500px;
+
+    }
+   .head{
+        border-radius: 7px;
+        background-color: #ffc0a9e7;
+    }
+    body {
+        margin: 0;
+        padding: 20px;
+        background: #ffe5d6; /* mild peach background */
+        font-family: Arial, sans-serif;
+    }
+
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .gallery img {
+        width: 240px;
+        height: 320px;
+        object-fit: cover;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        background: #f7c7b5; /* peach placeholder */
+        transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+        transform: scale(1.05);
+    }
+</style>
+</head>
+
+<body>
+    <div class="head"><h1>Gallery</h1></div>
+
+<div class="gallery">
+    <img src="https://i.pinimg.com/736x/9e/bf/a9/9ebfa99ee766bd67f6d3101778748504.jpg">
+    <img src="https://i.pinimg.com/1200x/4e/a2/29/4ea229649e46e744b89fcb625723fc73.jpg">
+    <img src="https://i.pinimg.com/736x/75/34/1c/75341c41fec409cca058e7add8869ab9.jpg">
+    <img src="https://i.pinimg.com/736x/08/4d/1e/084d1ebad6e46e709040407a4796ac2f.jpg">
+    <img src="https://i.pinimg.com/736x/fe/10/87/fe10872d5350ad1561a11253bdefa098.jpg">
+    <img src="https://i.pinimg.com/736x/8d/fc/6b/8dfc6bca46ba52e2ecb03b03dfe4f360.jpg">
+    <img src="https://i.pinimg.com/736x/9e/f4/3e/9ef43e563bb929b56c584bd705a494ea.jpg">
+    <img src="https://i.pinimg.com/1200x/ce/9a/b2/ce9ab20e62307a81269f944ec7250075.jpg">
+    <img src="https://i.pinimg.com/736x/89/7c/85/897c85756b962c71b04d285e81947a52.jpg">
+</div>
+
+</body>
+</html>

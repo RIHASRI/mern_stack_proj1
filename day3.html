@@ -1,0 +1,105 @@
+
+<html lang="en">
+<head>
+    <style>
+        .button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+
+}
+.button:hover{
+    opacity:0.6;
+}
+
+    div{
+    margin-top:100px;
+    margin-left:100px;
+    border:solid black 5px;
+    width: 300px;;
+    height:500px;
+}
+ h1{
+    position:sticky;
+    top:150px;
+    
+
+ }
+div.sticky {
+  position: sticky;
+  top: 0;
+  background-color: green;
+  border: 2px solid #4CAF50;
+}
+
+.one{
+    background-color: yellow;
+    height:100px;
+    width:100px;
+    margin:10px;
+    position:relative;
+    top:50px;
+    left:50px;
+    z-index: 3;
+}
+.two{
+    background-color: rgb(72, 255, 0);
+    height:100px;
+    width:100px;
+    margin:10px;
+    position:relative;
+    top:50px;
+    left:50px;
+    z-index:3;
+}
+.three{
+    background-color: rgb(89, 0, 255);
+    height:100px;
+    width:100px;
+    margin:10px;
+    position:relative;
+    top:50px;
+    left:50px;
+    z-index: 1;
+}
+    </style>
+</head>
+<body>
+    
+<button class="button button1">SUBSCRIBE</button>
+<div>
+        <h1>hello</h1>
+        <p>Lorem ipsum <span class="on:introstart="{() => status = 'introstart'}"" </span>sit amet consectetur adipisicing elit. Expedita, maxime ipsum eaque impedit, autem, consequatur necessitatibus vitae possimus quos laborum quo vero sed magni maiores incidunt unde. Assumenda, enim accusamus.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. At perferendis eaque ab sunt cumque deleniti, autem hic quis modi non minus exercitationem eligendi temporibus omnis optio iusto rerum impedit praesentium!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus id voluptate accusamus nobis consectetur, iste sed quo, totam porro aspernatur harum modi. Alias provident eveniet minus atque cumque modi repellat?</p>
+    </div>
+
+    <div class="one"><br></div>
+    <div class="two"><br></div>
+    <div class="three"><br></div>
+
+    <div class="overflow">
+    <p>Lorem ipsum dolor sit amet consectetur, Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut modi officiis ipsum nulla ullam ex maiores fugiat, voluptas eaque, sit quasi dignissimos? Officia, dignissimos. Excepturi ipsam assumenda sint nemo quisquam?
+        adipisicing elit. Alias reiciendis quibusdam possimus cumque temporibus dolorum iure, inventore neque tenetur id sint doloribus exercitationem natus recusandae facere eveniet, enim molestias provident.</p>
+    </div>
+<div style="width:150px; height:80px; border:2px solid black; overflow:visible;">
+    This is a long text that goes outside the box because overflow is visible.
+</div>
+<div style="width:150px; height:80px; border:2px solid black; overflow:hidden;">
+    This is a long text that gets hidden when it overflows.
+</div>
+<div style="width:150px; height:80px; border:2px solid black; overflow:scroll;">
+    This is long text that shows scrollbars even if there is little content.
+</div>
+<div style="width:150px; height:80px; border:2px solid black; overflow:auto;">
+    This text is long and will show a scrollbar only if content overflows.
+</div>
+
+</body>
+</html>
